@@ -37,8 +37,12 @@ body {
 }
 
 .cons li{
-    padding: 0px;
-    margin: 0px;
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    color: red;
 }
 
 
@@ -74,7 +78,7 @@ h1 {
     text-transform: uppercase;
     font-size: 3em;
     text-align: center;
-    color:;
+    color: black;
 }
 
 .w {
@@ -131,9 +135,11 @@ text p {
 
 /* column */
 .column {
-        width: 33.33%;
-        margin-bottom: 16px;
-        padding:  15px;
+    grid-template-columns: 1;
+    gap:  20px;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 15px;
 }
 
 @media screen and (max-width: 650px) {
